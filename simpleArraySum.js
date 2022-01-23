@@ -13,7 +13,10 @@ function myArr(arrSize){
   return arrSum;
 }
 
-let myResult = myArr(100);
+
+
+
+let myResult = myArr(2);
 console.log(myResult);
 
 
