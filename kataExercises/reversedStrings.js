@@ -6,7 +6,7 @@ for example: "world! => !dlroW */
 
 function solution(str){
   let myNewStr = "";
-    for( let i = 1; i<str.length+1; i++){
+    for(let i = 1; i<str.length+1; i++){
       myNewStr += str[str.length-i];
     }
     return myNewStr;
@@ -35,6 +35,6 @@ function solutionNewWay(newString){
 
 console.log(solutionNewWay("Third solution"));
 
-
+s
 
 
