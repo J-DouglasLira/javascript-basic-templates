@@ -18,7 +18,7 @@ function binarySearch(nums,target){
 } */
 
 var search = function(nums, target) {
-  return nums.indexOf(target)>=0 ? nums.indexOf(target) : -1
+  return nums.indexOf(target)>=0 ? nums.indexOf(target) : -1;
 };
 
 nums = [-1,0,3,5,9,12,50];
