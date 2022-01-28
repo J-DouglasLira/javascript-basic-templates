@@ -5,8 +5,6 @@ Example [1,-4,7,12] => 1 + 7 + 12 = 20
 */
 
 
-
-
 function positiveSum(arr) {
   let sum = 0;
   let i = 0;
