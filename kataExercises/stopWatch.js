@@ -11,7 +11,8 @@ function Stopwatch() {
   };
 
   this.stop = function () {
-    if (!running) throw new Error("Stopwatch is not started.");
+    if (!running)
+     throw new Error("Stopwatch is not started.");
     running = false;
     endTime = new Date();
 
@@ -32,6 +33,7 @@ function Stopwatch() {
     },
   });
 }
+
 
 
 
